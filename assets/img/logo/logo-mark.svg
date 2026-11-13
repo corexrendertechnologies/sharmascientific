@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <defs>
+    <linearGradient id="ssiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b123d"/>
+      <stop offset="40%" stop-color="#6d0e30"/>
+      <stop offset="100%" stop-color="#42081c"/>
+    </linearGradient>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9d976"/>
+      <stop offset="50%" stop-color="#e9b740"/>
+      <stop offset="100%" stop-color="#c88a1e"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Outer Gold Ring -->
+  <ellipse cx="120" cy="70" rx="112" ry="62" fill="none" stroke="url(#goldRing)" stroke-width="4.5" filter="url(#dropShadow)"/>
+  <!-- Inner Rim -->
+  <ellipse cx="120" cy="70" rx="106" ry="56" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.75"/>
+  <!-- Main Oval Body -->
+  <ellipse cx="120" cy="70" rx="104" ry="54" fill="url(#ssiGrad)"/>
+  <!-- Inner Highlight -->
+  <path d="M 30,62 C 45,32 195,32 210,62 C 190,40 50,40 30,62 Z" fill="#ffffff" opacity="0.18"/>
+  <!-- SSI Bold Serif Text -->
+  <text x="120" y="88" font-family="'Georgia', 'Times New Roman', serif" font-size="54" font-weight="900" font-style="italic" letter-spacing="4" fill="#ffffff" text-anchor="middle" filter="drop-shadow(2px 3px 2px rgba(0,0,0,0.6))">SSI</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+  <defs>
+    <linearGradient id="ssiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b123d"/>
+      <stop offset="40%" stop-color="#6d0e30"/>
+      <stop offset="100%" stop-color="#42081c"/>
+    </linearGradient>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9d976"/>
+      <stop offset="50%" stop-color="#e9b740"/>
+      <stop offset="100%" stop-color="#c88a1e"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Mark on Left -->
+  <g transform="translate(5, 5) scale(0.78)">
+    <ellipse cx="110" cy="70" rx="102" ry="56" fill="none" stroke="url(#goldRing)" stroke-width="4" filter="url(#dropShadow)"/>
+    <ellipse cx="110" cy="70" rx="96" ry="50" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.75"/>
+    <ellipse cx="110" cy="70" rx="94" ry="48" fill="url(#ssiGrad)"/>
+    <path d="M 30,62 C 45,35 175,35 190,62 C 170,42 50,42 30,62 Z" fill="#ffffff" opacity="0.2"/>
+    <text x="110" y="86" font-family="'Georgia', 'Times New Roman', serif" font-size="50" font-weight="900" font-style="italic" letter-spacing="3" fill="#ffffff" text-anchor="middle" filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.6))">SSI</text>
+  </g>
+  <!-- Typography on Right -->
+  <text x="200" y="56" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Sharma</text>
+  <text x="200" y="84" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#90e0ef" letter-spacing="0.5">Scientific Instruments</text>
+  <text x="200" y="104" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" letter-spacing="1.5">AHMEDABAD • ESTD. 1999</text>
+</svg>

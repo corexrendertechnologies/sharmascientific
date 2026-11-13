@@ -1,0 +1,2012 @@
+{
+  "company": {
+    "name": "Sharma Scientific Instruments",
+    "shortName": "SSI",
+    "phone": "+91-9898457997",
+    "phoneDisplay": "+91 98984 57997",
+    "phoneAlt": "+91-7405057997",
+    "phoneAltDisplay": "+91 74050 57997",
+    "whatsapp": "919898457997",
+    "email": "ssirajesh2010@gmail.com",
+    "addresses": {
+      "primary": "No. 31 Bhagwati Estate, Behind Uttam Dairy, Navneet Prakashan Road, Rakhial, Ahmedabad - 380023, Gujarat, India",
+      "alternate": "31 Bhagwati Estate, O-7, Sukhramnagar, Amraiwadi, Ahmedabad - 380026, Gujarat, India"
+    }
+  },
+  "categories": [
+    {
+      "id": "heating-drying",
+      "name": "Heating & Drying",
+      "icon": "flame",
+      "count": 8,
+      "description": "Industrial ovens, furnaces, hot plates, and vacuum drying chambers."
+    },
+    {
+      "id": "incubation-climate",
+      "name": "Incubation & Climate",
+      "icon": "cloud-sun",
+      "count": 6,
+      "description": "BOD incubators, environmental humidity chambers, bacteriological incubators, and seed germinators."
+    },
+    {
+      "id": "water-baths",
+      "name": "Water Baths",
+      "icon": "droplets",
+      "count": 6,
+      "description": "High precision constant temperature baths, cryostats, thermostatic ring baths, and serum inspissators."
+    },
+    {
+      "id": "sterilisation",
+      "name": "Sterilisation",
+      "icon": "shield-check",
+      "count": 3,
+      "description": "Vertical steam autoclaves and pyrogen-free continuous water distillation stills."
+    },
+    {
+      "id": "sample-prep-extraction",
+      "name": "Sample Prep & Extraction",
+      "icon": "flask-conical",
+      "count": 6,
+      "description": "Kjeldahl nitrogen units, Soxhlet extractors, COD digestion apparatus, and heating mantles."
+    },
+    {
+      "id": "cold-storage",
+      "name": "Cold Storage",
+      "icon": "snowflake",
+      "count": 4,
+      "description": "Ultra-low temperature freezers (-80°C), freeze driers, and mortuary preservation chambers."
+    },
+    {
+      "id": "clean-air-safety",
+      "name": "Clean-Air & Safety",
+      "icon": "wind",
+      "count": 4,
+      "description": "Laminar air flow clean benches, ducted fume hoods, and UV inspection darkrooms."
+    },
+    {
+      "id": "mixing-shaking",
+      "name": "Mixing & Shaking",
+      "icon": "activity",
+      "count": 3,
+      "description": "Orbital shaking incubators, mini rotary flask shakers, and magnetic stirrers."
+    },
+    {
+      "id": "counting-microbiology",
+      "name": "Counting & Microbiology",
+      "icon": "scan",
+      "count": 1,
+      "description": "Digital colony counters with magnifying lenses and touch marking pens."
+    }
+  ],
+  "products": [
+    {
+      "id": "bod-incubator",
+      "name": "B.O.D. Incubator",
+      "catalogueCode": "S.S.I. / 005",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Accurate, Cool & Warm with Smart Microcontroller",
+      "featured": true,
+      "description": "Multi-purpose Low Temperature Incubator designed with state-of-the-art technology to meet requirements for incubation of Bio-chemical Oxygen Demand on water and sewage, study of enzymatic digestion process for studying tissue culture, cell cloning, microbiology, bio-chemistry, agricultural, medical, and pharmaceutical research.",
+      "construction": {
+        "volume": "3, 6, 10, 12, 15, 18, 20, 22 cu. ft.",
+        "interior": "Polished Stainless Steel (SS-304) or Anodized Aluminium",
+        "exterior": "Heavy Gauge Mild Steel finished in durable powder coated paint",
+        "chamber": "Triple walled construction with PUF / thermofiber insulation",
+        "mobility": "Fitted with heavy-duty castor wheels for effortless mobility",
+        "innerDoor": "Full view clear glass door with metal frame for viewing without temperature loss",
+        "outerDoor": "Solid insulated door with molded PVC magnetic gasket, lock and key",
+        "shelves": "Sturdy stainless steel perforated trays fabricated for minimal air resistance",
+        "circulation": "Forced-air circulation by suction blower and fan",
+        "frontPanel": "Mains and cooling/heating rocker switches, micro temperature controller, voltmeter, ammeter and fuse",
+        "illumination": "Cabinet light operates when the door opens"
+      },
+      "temperature": {
+        "range": "5°C to 50°C",
+        "accuracy": "±1°C or better",
+        "controller": "Microprocessor based PID digital temperature indicator cum controller with dual display (PV/SV)",
+        "sensor": "PT 100 sensor",
+        "readability": "0.1°C on digital LED",
+        "leastCount": "0.1°C"
+      },
+      "coolingHeating": {
+        "heaters": "Tubular finned type air heater",
+        "compressor": "Hermetically sealed Kirloskar make (or equivalent) refrigeration compressor with fan-cooled condenser coil",
+        "safety": "Adjustable time delay relay for safety of compressor; solid state relays"
+      },
+      "optionalAccessories": [
+        "Fluorescent lighting system (three tubes placed vertically along back wall, 0-24 hr cyclic programmable timer)",
+        "Suitable automatic voltage stabilizer",
+        "Calibration certificate with national traceability"
+      ],
+      "applications": [
+        "Biochemical Oxygen Demand (B.O.D.) tests on wastewater and effluent",
+        "Microbiological and cell culture incubation",
+        "Fermentation and enzyme digestion studies",
+        "Agricultural seed testing and plant tissue culture"
+      ],
+      "image": "assets/img/products/bod-incubator.webp",
+      "imageFallback": "assets/img/products/bod-incubator.jpg",
+      "model3d": "bod-incubator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "agriculture",
+        "research"
+      ],
+      "chips": [
+        "5°C to 50°C Range",
+        "Stainless Steel Chamber",
+        "Digital PID Controller"
+      ],
+      "pdfUrl": "assets/docs/bod-incubator.pdf"
+    },
+    {
+      "id": "hot-air-oven",
+      "name": "Hot Air Oven",
+      "catalogueCode": "S.S.I. 027",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Memmert German Type Design - Indispensable for Every Laboratory",
+      "featured": true,
+      "description": "Aesthetically designed and precisely fabricated to suit various heating, drying, sterilizing, and baking applications across medical, industrial, research, and educational institutes. Built to Memmert German standards with uniform heat distribution and heavy glass wool insulation.",
+      "construction": {
+        "interior": "Polished Stainless Steel (SS-304) or Anodized Aluminium with ribs for shelf adjustment",
+        "exterior": "Heavy Gauge Mild Steel finished with attractive powder-coated paint in pleasant shade",
+        "chamber": "Double walled with 75mm thick high-grade glass wool insulation",
+        "ventilation": "Air ventilators provided near the top sides for removing hot gases and fumes",
+        "shelves": "Sturdy, elegant stainless steel wire mesh trays"
+      },
+      "temperature": {
+        "range": "5°C above ambient to 250°C (300°C models available on request)",
+        "accuracy": "±1°C (microcontroller model) or ±2°C (thermostat model)",
+        "controller": "Micro digital temperature indicator cum controller with dual display for set value and process value",
+        "sensor": "Copper capillary thermostat or K-type thermocouple sensor",
+        "display": "Digital LED display"
+      },
+      "heating": {
+        "heaters": "High-grade 80/20 Nichrome heating elements placed in ribs of three sides for maximum temperature uniformity",
+        "power": "Single Phase 220/230 V AC supply"
+      },
+      "sizes": [
+        {
+          "h": 30,
+          "w": 30,
+          "d": 30,
+          "rating": "1.0 kW"
+        },
+        {
+          "h": 35,
+          "w": 35,
+          "d": 35,
+          "rating": "1.0 kW"
+        },
+        {
+          "h": 45,
+          "w": 45,
+          "d": 45,
+          "rating": "1.5 kW"
+        },
+        {
+          "h": 60,
+          "w": 45,
+          "d": 45,
+          "rating": "2.0 kW"
+        },
+        {
+          "h": 60,
+          "w": 60,
+          "d": 60,
+          "rating": "2.5 kW"
+        },
+        {
+          "h": 90,
+          "w": 60,
+          "d": 45,
+          "rating": "2.5 kW"
+        },
+        {
+          "h": 90,
+          "w": 60,
+          "d": 60,
+          "rating": "3.0 kW"
+        }
+      ],
+      "optionalAccessories": [
+        "Forced air circulation blower fan for superior thermal uniformity",
+        "Mechanical 0-120 min timer or 0-24 hr digital timer",
+        "Microprocessor PID controller with programmable ramp/soak profiles",
+        "Calibration certificate with traceability"
+      ],
+      "applications": [
+        "Glassware sterilization and depyrogenation",
+        "Moisture determination and sample dry-out",
+        "Baking of varnishes, lacquers, and resins",
+        "Thermal aging and conditioning of plastics/rubber"
+      ],
+      "image": "assets/img/products/hot-air-oven-ss.webp",
+      "imageFallback": "assets/img/products/hot-air-oven-ss.jpg",
+      "model3d": "hot-air-oven",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Ambient +5°C to 250°C",
+        "Forced Air Circulation",
+        "Digital Controller"
+      ],
+      "pdfUrl": "assets/docs/hot-air-oven.pdf"
+    },
+    {
+      "id": "humidity-chamber",
+      "name": "Humidity Chamber",
+      "catalogueCode": "S.S.I. Make",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Cool, Warm & Humid - Precision Climatic Durability Testing",
+      "featured": true,
+      "description": "Specially designed for climatic and durability tests conforming to standard testing specifications where relative humidity (Rh) is controlled above freezing point. Widely used for testing vapor-proofness of packaging materials, dielectric strength of electronic assemblies, plant/animal growth studies, and paint corrosion testing.",
+      "construction": {
+        "volume": "3, 6, 10, 12, 15, 18, 20, 22 cu. ft.",
+        "interior": "Polished Stainless Steel (SS-304) or Anodized Aluminium",
+        "exterior": "Heavy Gauge Mild Steel finished in durable powder coated paint",
+        "chamber": "Triple walled construction with superior thermofiber board / PUF insulation",
+        "innerDoor": "Full-view toughened glass door with metal frame",
+        "outerDoor": "Heavy insulated door with rubber gasket seal against atmospheric infiltration",
+        "circulation": "Forced air circulation by suction blower with fan for uniform condition throughout"
+      },
+      "temperature": {
+        "range": "5°C to 50°C",
+        "accuracy": "±1°C or better",
+        "controller": "Dual microcontroller for temperature and humidity with dual digital displays",
+        "sensor": "PT 100 sensors for dry bulb and wet bulb"
+      },
+      "humidity": {
+        "method": "Steam injection system; humidity derived by dry and wet bulb principle",
+        "range": "40% to 95% RH",
+        "accuracy": "±5% RH or better"
+      },
+      "refrigeration": {
+        "compressor": "Hermetically sealed Kirloskar make compressor or equivalent with fan-cooled condenser and evaporation coil",
+        "safety": "Adjustable time delay relay for compressor protection; solid state relays"
+      },
+      "optionalAccessories": [
+        "Low cut-off device for heater/compressor safety",
+        "Direct reading electronic RH sensor/indicator cum controller",
+        "Voltage stabilizer of suitable capacity",
+        "Calibration certificate with traceability"
+      ],
+      "applications": [
+        "ICH stability testing for pharmaceuticals",
+        "Moisture resistance and shelf life testing of packaged products",
+        "Insulation testing of electrical and electronic components",
+        "Seed germination, botany, and entomology research"
+      ],
+      "image": "assets/img/products/humidity-chamber.webp",
+      "imageFallback": "assets/img/products/humidity-chamber.jpg",
+      "model3d": "humidity-chamber",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "agriculture",
+        "food-dairy",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Humidity 40% to 95%",
+        "5°C to 50°C Range",
+        "Stainless Steel Chamber"
+      ],
+      "pdfUrl": "assets/docs/humidity-chamber.pdf"
+    },
+    {
+      "id": "vertical-autoclave",
+      "name": "Vertical Autoclave",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sterilisation",
+      "categoryName": "Sterilisation",
+      "tagline": "High Pressure Steam Sterilization for Laboratories & Hospitals",
+      "featured": true,
+      "description": "Vertical autoclave listed in the laboratory equipment range. Ask for the current model-specific chamber capacity, operating pressure, cycle controls, safety devices, electrical supply and documentation before selection.",
+      "applications": [
+        "Sterilization of microbiology culture media and broths",
+        "Surgical instrument and dressing sterilization",
+        "Biohazard waste decontamination and autoclave destruction",
+        "QC testing in pharmaceutical parenteral manufacturing"
+      ],
+      "image": "assets/img/products/vertical-autoclave.webp",
+      "imageFallback": "assets/img/products/vertical-autoclave.jpg",
+      "model3d": "vertical-autoclave",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "agriculture",
+        "research"
+      ],
+      "chips": [
+        "Radial Swivel Nut Lid",
+        "Pressure Gauge Fitted",
+        "Heavy Stainless Steel"
+      ],
+      "pdfUrl": "assets/docs/vertical-autoclave.pdf",
+      "datasheetRequestRequired": true
+    },
+    {
+      "id": "constant-temp-water-bath",
+      "name": "Constant Temperature Water Bath",
+      "catalogueCode": "S.S.I. 014 / S.S.I. 34",
+      "category": "water-baths",
+      "categoryName": "Water Baths",
+      "tagline": "High Precision Temperature Bath with Motorized Stirrer",
+      "featured": true,
+      "description": "High-precision constant-temperature water bath with stainless-steel interior, powder-coated CRC exterior, glass-wool insulation and a motorized stirrer. Catalogue accuracy is stated as ±0.5°C or better; check the selected bath size and working range when requesting a quotation.",
+      "construction": {
+        "interior": "Deep-drawn or seamlessly welded stainless steel (SS-304)",
+        "exterior": "Heavy gauge CRC sheet attractively finished with corrosion-resistant powder coating",
+        "insulation": "Double walled cavity packed with high grade resin-bonded glass wool",
+        "stirrer": "Top rim mounted motorized stirrer with stainless steel impeller for continuous fluid circulation"
+      },
+      "temperature": {
+        "range": "Ambient +5°C to 95°C",
+        "accuracy": "±0.5°C or better",
+        "controller": "Microprocessor based digital temperature indicator cum controller with dual LED display",
+        "heating": "Separate switches for mains, stirrer, permanent running heater, and booster heater"
+      },
+      "sizes": [
+        {
+          "l": 40,
+          "w": 23.5,
+          "d": 26.5,
+          "capacity": "Approx. 25 Litres"
+        },
+        {
+          "l": 43,
+          "w": 35,
+          "d": 33.5,
+          "capacity": "Approx. 50 Litres"
+        }
+      ],
+      "optionalAccessories": [
+        "Gabled / Pyramidal stainless steel lid",
+        "Test tube racks (Khan rack for 48 tubes)",
+        "Concentric ring drop-on lids for evaporating dishes",
+        "Digital timer 0-24 hours"
+      ],
+      "applications": [
+        "Serological testing and agglutination assays",
+        "Enzyme digestion and substrate kinetic reactions",
+        "Thawing of cryopreserved samples and blood products",
+        "Viscometry, refractometry, and general sample tempering"
+      ],
+      "image": "assets/img/products/constant-temp-water-bath-precision.webp",
+      "imageFallback": "assets/img/products/constant-temp-water-bath-precision.jpg",
+      "model3d": "constant-temp-water-bath",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Ambient +5°C to 95°C",
+        "Motor Stirrer Fitted",
+        "Digital Controller"
+      ],
+      "pdfUrl": "assets/docs/constant-temp-water-bath.pdf"
+    },
+    {
+      "id": "laminar-air-flow-bench",
+      "name": "Laminar Air Flow Bench",
+      "catalogueCode": "SSI/043",
+      "category": "clean-air-safety",
+      "categoryName": "Clean-Air & Safety",
+      "tagline": "Horizontal and vertical clean-air benches with HEPA filtration",
+      "featured": true,
+      "description": "Horizontal and vertical laminar-flow clean-air benches. The printed catalogue states a design intent against US Federal Standard 209B and BS 5295 requirements, with a stated Class 100 condition; confirm the current classification and validation requirements for your application.",
+      "construction": {
+        "cabinet": "Constructed from seasoned thick wood/duroboard clad with sunmica, cold rolled MS powder coated, or stainless steel",
+        "table": "Heavy stainless steel work table with satin finish (or high pressure mica top)",
+        "sidePanels": "Thick transparent plexiglass / acrylic side view panels",
+        "lighting": "Diffused, glare-free fluorescent work-area lighting; UV germicidal light is an optional fitting."
+      },
+      "filtration": {
+        "preFilter": "First-stage pre-filter; the brochure does not state a capture rating.",
+        "hepaFilter": "HEPA filter: stated efficiency 99.99% with cold DOP and 99.97% with hot DOP for 0.3 micron particles.",
+        "velocity": "Air velocity calibrated at 90 FPM ±20%",
+        "blower": "Dynamically balanced direct-drive motor blower unit operating under 65 dB noise level and vibration below 2.5 µm"
+      },
+      "sizes": [
+        "2x2x2 ft",
+        "3x2x2 ft",
+        "4x2x2 ft",
+        "6x2x2 ft",
+        "8x2x2 ft"
+      ],
+      "variants": [
+        "Horizontal Air Flow",
+        "Vertical Air Flow with optional bottom exhaust"
+      ],
+      "optionalAccessories": [
+        "Satin finish SS-304 table top in lieu of mica",
+        "Transparent acrylic / polycarbonate front sliding sash door",
+        "Static pressure inclined manometer / Magnehelic gauge",
+        "Gas / air / vacuum cock outlet line",
+        "Particle count validation at site after installation"
+      ],
+      "applications": [
+        "Microbiological and tissue culture inoculation",
+        "Sterility testing and pharmaceutical vial filling",
+        "Media plate pouring and sterile sample preparation",
+        "Optics assembly and electronics clean-room tasks"
+      ],
+      "image": "assets/img/products/laminar-air-flow-horizontal.webp",
+      "imageFallback": "assets/img/products/laminar-air-flow-horizontal.jpg",
+      "model3d": "laminar-air-flow-bench",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "agriculture",
+        "research"
+      ],
+      "chips": [
+        "HEPA Filter System",
+        "SS-304 Work Table",
+        "UV Germicidal Lamp"
+      ],
+      "pdfUrl": "assets/docs/laminar-air-flow-bench.pdf"
+    },
+    {
+      "id": "fume-hood-chamber",
+      "name": "Fume Hood Chamber",
+      "catalogueCode": "S.S.I. Make",
+      "category": "clean-air-safety",
+      "categoryName": "Clean-Air & Safety",
+      "tagline": "Toxic Fume & Gas Extraction with Aerodynamic Exhaust Blower",
+      "featured": true,
+      "description": "Engineered to contain and exhaust toxic, obnoxious, or harmful gases, vapors, and chemical mist to protect laboratory personnel and expensive equipment. Features a motor-driven centrifugal blower creating negative pressure in the hood, with a vertical sliding sash and chemical-resistant interior.",
+      "construction": {
+        "outer": "Thick weather-resistant Duroboard clad in decorative mica lamination or epoxy-painted heavy CRCA steel",
+        "innerChamber": "Chemically resistant epoxy interior finish",
+        "workSurface": "Ceramic-tiled or heavy granite work surface with spill-lip",
+        "sash": "Counter-balanced vertical sliding transparent toughened glass / acrylic sash",
+        "lighting": "Vapor-proof fluorescent lighting fixture recessed in hood ceiling"
+      },
+      "exhaust": {
+        "blower": "High-static centrifugal blower with dynamically balanced PP/FRP or stainless impeller",
+        "duct": "Heavy-duty PVC / FRP ducting suitable for rooftop or outside exhaust discharge",
+        "electrical": "Supplied with 15A electrical plugs and blower rocker switch"
+      },
+      "sizes": [
+        "4x2x2 ft",
+        "5x3x2 ft",
+        "6x2x2 ft",
+        "7x3x3 ft",
+        "8x3x3 ft"
+      ],
+      "optionalAccessories": [
+        "Complete exhaust system suitable for 10 ft duct and beyond",
+        "Heavy-gauge chemical resistant PVC / FRP exhaust duct",
+        "Lead lining on work area walls for radio-isotope applications",
+        "Base cabinet with under-hood chemical storage and double doors",
+        "Acid-resistant ceramic tiles work surface with sink and water tap"
+      ],
+      "applications": [
+        "Acid digestion and organic solvent refluxing",
+        "Volatile organic chemical synthesis and handling",
+        "Toxic gas evolution experiments in chemistry labs",
+        "Wastewater and environmental testing laboratories"
+      ],
+      "image": "assets/img/products/fume-hood-chamber.webp",
+      "imageFallback": "assets/img/products/fume-hood-chamber.jpg",
+      "model3d": "fume-hood-chamber",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Chemical Resistant Sash",
+        "Exhaust Blower",
+        "Illuminated Interior"
+      ],
+      "pdfUrl": "assets/docs/fume-hood-chamber.pdf"
+    },
+    {
+      "id": "laboratory-furnace",
+      "name": "Laboratory Furnace / Muffle Furnace",
+      "catalogueCode": "S.S.I. Make-049",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Light Weight, Red, Hot & Precise - Up to 1200°C High Temperature",
+      "featured": true,
+      "description": "Laboratory muffle furnace for heating and ashing workflows. The catalogue lists 1200°C maximum temperature, with 1400°C models also noted; working temperature and controller accuracy depend on the selected control type.",
+      "construction": {
+        "exterior": "Heavy gauge Mild CRC Steel with appropriate ventilation louvers",
+        "muffle": "High alumina refractory muffle baked at 1500°C",
+        "insulation": "Lightweight ceramic fiber wool of superior quality, highly resistive to high thermal transfer"
+      },
+      "temperature": {
+        "maxTemp": "1200°C; high-temperature models up to 1400°C are mentioned in the catalogue.",
+        "workingTemp": "Catalogue lists 1150°C working for microcontroller models and 900°C working for energy-regulator models.",
+        "accuracy": "±2°C or better with microcontroller; ±10°C or better with energy regulator, as printed.",
+        "heaters": "Kanthal A1 heating elements wound uniformly around muffle",
+        "sensor": "K-type (Cr/Al) thermocouple with ceramic sheath",
+        "controlVariants": "Microcontroller digital control or energy regulator with pyrometer."
+      },
+      "sizes": [
+        {
+          "h": 225,
+          "w": 100,
+          "d": 100,
+          "kw": "1.5 kW / 2.0 kW"
+        },
+        {
+          "h": 250,
+          "w": 125,
+          "d": 125,
+          "kw": "2.0 kW / 2.5 kW"
+        },
+        {
+          "h": 300,
+          "w": 150,
+          "d": 150,
+          "kw": "3.0 kW / 4.0 kW"
+        },
+        {
+          "h": 300,
+          "w": 200,
+          "d": 200,
+          "kw": "4.0 kW / 5.0 kW"
+        },
+        {
+          "h": 450,
+          "w": 225,
+          "d": 255,
+          "kw": "6.0 kW / 9.0 kW"
+        }
+      ],
+      "optionalAccessories": [
+        "Microprocessor PID programmable profile controller with multi-ramp soak steps",
+        "Built-in safety thermal fuse / over-temperature cutoff alarm",
+        "Calibration certificate with national traceability"
+      ],
+      "applications": [
+        "Ashing and gravimetric analysis in food and agriculture",
+        "Heat treatment, annealing, and sintering of metals and ceramics",
+        "Ignition loss testing in environmental engineering",
+        "Volatile substance determination in coal and minerals"
+      ],
+      "image": "assets/img/products/laboratory-furnace-muffle.webp",
+      "imageFallback": "assets/img/products/laboratory-furnace-muffle.jpg",
+      "model3d": "laboratory-furnace",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "research",
+        "chemical-textile",
+        "pharma"
+      ],
+      "chips": [
+        "Max Temp 1150°C",
+        "High-Alumina Muffle",
+        "Digital Controller"
+      ],
+      "pdfUrl": "assets/docs/laboratory-furnace.pdf"
+    },
+    {
+      "id": "colony-counter",
+      "name": "Colony Counter (Digital)",
+      "catalogueCode": "SSI/013",
+      "category": "counting-microbiology",
+      "categoryName": "Counting & Microbiology",
+      "tagline": "Glare-Free Illumination & Digital Touch Counting System",
+      "featured": true,
+      "description": "Ergonomically designed to provide uniform, glare-free illumination for counting bacterial and mold colonies in culture work. Features a 100 mm diameter magnifying lens on an adjustable arm, standard Wolffhuegel grid plate, and an electronic marking pencil that increments the LED display with each touch, eliminating technician fatigue.",
+      "specifications": {
+        "lens": "100 mm diameter high magnification optical lens covering entire 110 mm Petri dish field",
+        "countingPlate": "Illuminated counting field with standard Wolffhuegel circular and square ruling",
+        "display": "3 or 4-digit bright 7-segment digital LED readout (counts up to 999 or 9999)",
+        "penSensor": "Electronic marking felt-tip marker probe with audible touch beep and pulse counter",
+        "reset": "Manual push-button zero reset on front panel",
+        "supply": "220/230V AC, single phase, 50 Hz"
+      },
+      "applications": [
+        "Total viable count (TVC) in bacteriology and mycology",
+        "Water quality testing and coliform colony enumeration",
+        "Pharmaceutical microbial limit testing (MLT)",
+        "Dairy and food quality assurance microbiology"
+      ],
+      "image": "assets/img/products/colony-counter-digital.webp",
+      "imageFallback": "assets/img/products/colony-counter-digital.jpg",
+      "model3d": "colony-counter",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pathology",
+        "pharma",
+        "food-dairy",
+        "research"
+      ],
+      "chips": [
+        "Digital Readout",
+        "Magnifying Lens Arm",
+        "Marking Sensor Pen"
+      ],
+      "pdfUrl": "assets/docs/colony-counter.pdf"
+    },
+    {
+      "id": "rectangular-hot-plate",
+      "name": "Rectangular Hot Plate",
+      "catalogueCode": "S.S.I. 028 (A)",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Heavy Cast Iron / Stainless Steel Top Plate with 3-Heat Control",
+      "featured": false,
+      "description": "Electrically operated rectangular laboratory hot plate. The top heating surface is fabricated from heavy machined cast iron (C.I.) or stainless steel (S.S.), mounted on a heavy mild steel housing with thermal standoffs so the body and control switches remain completely cool during continuous high-temperature heating.",
+      "specifications": {
+        "topPlate": "Heavy cast iron machined flat plate or SS top plate with thermal standoffs",
+        "body": "Thick mild steel finished with corrosion-proof powder coated paint",
+        "heatingElement": "Nikronthal 80/20 nichrome element properly insulated with cerawool and ceramic beads",
+        "controls": "Three-heat rotary switch or sunvic energy regulator for Low, Medium, and High heat",
+        "indicators": "Dual neon indicator lamps for mains and heating status"
+      },
+      "sizes": [
+        {
+          "size": "25 x 30 cm",
+          "rating": "1.0 kW"
+        },
+        {
+          "size": "25 x 40 cm",
+          "rating": "1.2 kW"
+        },
+        {
+          "size": "30 x 50 cm",
+          "rating": "1.5 kW"
+        },
+        {
+          "size": "45 x 60 cm",
+          "rating": "2.0 kW / 3.0 kW"
+        }
+      ],
+      "applications": [
+        "General liquid boiling and sample digestion",
+        "Chemical beaker heating and solvent evaporation",
+        "Sample preparation in quality control testing laboratories",
+        "Reagent heating and dissolution"
+      ],
+      "image": "assets/img/products/rectangular-hot-plate.webp",
+      "imageFallback": "assets/img/products/rectangular-hot-plate.jpg",
+      "model3d": "rectangular-hot-plate",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "research",
+        "chemical-textile",
+        "pharma",
+        "pathology"
+      ],
+      "chips": [
+        "Cast Iron Top",
+        "Heavy-Duty Element",
+        "Energy Regulator"
+      ],
+      "pdfUrl": "assets/docs/rectangular-hot-plate.pdf"
+    },
+    {
+      "id": "heating-mantle",
+      "name": "Heating Mantle",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Uniform Spherical Flask Heating with Energy Regulator",
+      "featured": false,
+      "description": "Double-walled laboratory heating mantle designed to safely provide uniform, flameless thermal contact to round-bottom boiling flasks. The outer casing is spun from heavy aluminum, powder coated, and lined with knitted fiberglass yarn nest and thick glass wool insulation to prevent heat loss.",
+      "specifications": {
+        "body": "Spun aluminum hemispherical casing finished in chemical-resistant powder coat",
+        "element": "Nichrome heating wire enclosed in flexible knitted fiberglass nest",
+        "insulation": "Thick resin-bonded mineral glass wool on all sides",
+        "control": "Front mounted stepless energy regulator with neon pilot lamp",
+        "maxTemp": "Ambient up to 350°C (or up to 450°C)",
+        "supply": "230 V AC, 50 Hz"
+      },
+      "capacities": [
+        "50 ml",
+        "100 ml",
+        "250 ml",
+        "500 ml",
+        "1000 ml (1 L)",
+        "2000 ml (2 L)",
+        "5000 ml (5 L)",
+        "10000 ml (10 L)"
+      ],
+      "applications": [
+        "Distillation and reflux of organic solvents",
+        "Chemical synthesis in round-bottom flasks",
+        "Extraction processes avoiding open flames"
+      ],
+      "image": "assets/img/products/heating-mantle.webp",
+      "imageFallback": "assets/img/products/heating-mantle.jpg",
+      "model3d": "heating-mantle",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "research",
+        "chemical-textile",
+        "pharma"
+      ],
+      "chips": [
+        "Knitted Element",
+        "Up to 350°C",
+        "Insulated Body"
+      ],
+      "pdfUrl": "assets/docs/heating-mantle.pdf"
+    },
+    {
+      "id": "ultra-low-freezers",
+      "name": "Ultra Low Freezers (Deep Freezers)",
+      "catalogueCode": "S.S.I. / 016",
+      "category": "cold-storage",
+      "categoryName": "Cold Storage",
+      "tagline": "Sub-Zero Preservation Down to -80°C - Vertical & Chest Types",
+      "featured": true,
+      "description": "Chest and upright ultra-low freezers listed for operation from -40°C to -80°C in an air-conditioned ambient room. Confirm the current model, controller, accessories and performance specifications before selection.",
+      "construction": {
+        "configuration": "Available in Horizontal Chest type (UDF series) or Vertical Upright type",
+        "interior": "Stainless steel (SS-304) inner chamber with sub-compartment acrylic doors",
+        "insulation": "Extra-dense CFC-free high-pressure Polyurethane Foam (PUF) insulation",
+        "door": "Counter-balanced heavy insulated lid (chest) or gasketed multi-door (vertical)"
+      },
+      "temperature": {
+        "range": "-40°C to -80°C (in AC ambient room)",
+        "controller": "Microprocessor based digital temperature indicator cum controller"
+      },
+      "models": [
+        {
+          "model": "UDF-85 (Chest)",
+          "volume": "85 L",
+          "inner": "47 x 36 x 50 cm",
+          "outer": "166 x 61 x 100 cm"
+        },
+        {
+          "model": "UDF-165 (Chest)",
+          "volume": "165 L",
+          "inner": "94 x 36 x 50 cm",
+          "outer": "173 x 61 x 100 cm"
+        },
+        {
+          "model": "Vertical 90L",
+          "volume": "90 L",
+          "inner": "40 x 40 x 58 cm",
+          "outer": "65 x 83 x 145 cm"
+        },
+        {
+          "model": "Vertical 185L",
+          "volume": "185 L",
+          "inner": "51 x 51 x 73 cm",
+          "outer": "76 x 94 x 160 cm"
+        }
+      ],
+      "optionalAccessories": [
+        "Printout interface",
+        "7-day chart recorder"
+      ],
+      "applications": [
+        "Long-term preservation of plasma, viruses, and DNA/RNA libraries",
+        "Cryogenic vaccine storage and biological reference standard keeping",
+        "Cold-soak testing of aerospace and electronic components"
+      ],
+      "image": "assets/img/products/ultra-low-freezer-vertical.webp",
+      "imageFallback": "assets/img/products/ultra-low-freezer-vertical.jpg",
+      "model3d": "ultra-low-freezers",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "-40°C to -80°C Range",
+        "PUF Insulation",
+        "Digital Controller"
+      ],
+      "pdfUrl": "assets/docs/ultra-low-freezers.pdf"
+    },
+    {
+      "id": "ultra-cryostat-bath",
+      "name": "Ultra Cryostat Constant Temperature Baths",
+      "catalogueCode": "S.S.I. / 015",
+      "category": "water-baths",
+      "categoryName": "Water Baths",
+      "tagline": "Refrigerated Low-Temperature Circulating Baths (-30°C to +100°C)",
+      "featured": false,
+      "description": "Designed to carry out research work at precise below-ambient and sub-zero temperatures. Compact units fabricated from sheet steel with a stainless steel inner chamber. Refrigeration is achieved via a hermetically sealed compressor with a top circulation pump for both internal and external closed-loop circulation.",
+      "specifications": {
+        "chamber": "Seamless stainless steel chamber with 12 Litres bath capacity and bottom discharge",
+        "accuracy": "±0.2°C temperature accuracy across full range",
+        "circulation": "High-performance circulation pump: capacity 10 Litres per minute at 2 m water column",
+        "controller": "Digital temperature controller-cum-indicator with dual display and fine tuning"
+      },
+      "models": [
+        {
+          "model": "SIC-38 (A)",
+          "range": "0°C to +100°C",
+          "bathOpen": "230 x 200 mm",
+          "depth": "180 mm",
+          "power": "1 kW"
+        },
+        {
+          "model": "SIC-38 (B)",
+          "range": "-20°C to +100°C",
+          "bathOpen": "230 x 200 mm",
+          "depth": "180 mm",
+          "power": "1 kW"
+        },
+        {
+          "model": "SIC-38 (C)",
+          "range": "-30°C to +100°C",
+          "bathOpen": "230 x 200 mm",
+          "depth": "180 mm",
+          "power": "1 kW"
+        }
+      ],
+      "applications": [
+        "Jacketed reactor cooling in synthesis chemistry",
+        "Viscosity and calibration testing at low temperatures",
+        "External cooling loops for condensers, spectrophotometers, and refractometers"
+      ],
+      "image": "assets/img/products/ultra-cryostat-bath.webp",
+      "imageFallback": "assets/img/products/ultra-cryostat-bath.jpg",
+      "model3d": "ultra-cryostat-bath",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Sub-Zero Cooling",
+        "Circulation Pump",
+        "Digital Display"
+      ],
+      "pdfUrl": "assets/docs/ultra-cryostat-bath.pdf"
+    },
+    {
+      "id": "kjeldahl-distillation-unit",
+      "name": "Kjeldahl Distillation Unit",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Macro Nitrogen & Crude Protein Determination Apparatus",
+      "featured": false,
+      "description": "Manufactured for quantitative determination of nitrogen and protein content in food, grain, feed, fertilizers, soil, and wastewater samples according to the classic Kjeldahl method. Features an array of 3 or 6 heating mantles with individual energy regulators, water cooling manifold, and splash head tubes.",
+      "specifications": {
+        "stand": "Sturdy tubular iron stand with chemical resistant paint finish",
+        "heatingUnits": "Available in 3-test or 6-test configuration (500 ml or 800 ml Kjeldahl flasks)",
+        "heaters": "Fitted with individual heating mantles with separate stepless heat regulators and pilot lamps",
+        "manifold": "Supplied with brass/copper water distributor manifold with individual stopcocks for condensers",
+        "glassware": "Supplied complete or without glassware (Liebig condensers, Kjeldahl traps, flasks)"
+      },
+      "applications": [
+        "Total Kjeldahl Nitrogen (TKN) analysis in environmental testing",
+        "Crude protein estimation in dairy, cereals, and animal fodder",
+        "Soil fertility and total nitrogen assays in agriculture"
+      ],
+      "image": "assets/img/products/kjeldahl-distillation-unit.webp",
+      "imageFallback": "assets/img/products/kjeldahl-distillation-unit.jpg",
+      "model3d": "kjeldahl-unit",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "food-dairy",
+        "agriculture",
+        "chemical-textile",
+        "research"
+      ],
+      "chips": [
+        "Borosilicate Glass",
+        "Heating Bank",
+        "SS Support Stand"
+      ],
+      "pdfUrl": "assets/docs/kjeldahl-distillation-unit.pdf"
+    },
+    {
+      "id": "micro-kjeldahl-digestion-unit",
+      "name": "Micro Kjeldahl Digestion Unit",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Compact Benchtop Micro-Digestion Assembly with Fume Duct",
+      "featured": false,
+      "description": "Compact benchtop assembly designed for digestion of micro-samples containing small quantities of nitrogen (18 to 30 ml or 100 ml micro Kjeldahl flasks). Includes an integrated glass fume manifold to draw away acid fumes during boiling.",
+      "specifications": {
+        "bench": "Heavy steel body with durable powder coated finish",
+        "capacities": "Available in 3 or 6 unit setups for 30 ml or 100 ml flasks",
+        "heaters": "Tubular heaters with individual stepless energy regulators",
+        "fumeDuct": "Supplied with acid-resistant borosilicate glass fume duct manifold with water aspirator adapter"
+      },
+      "applications": [
+        "Micro-sample nitrogen estimation in biochemical and clinical research",
+        "Protein determination in precious or micro-volume specimens"
+      ],
+      "image": "assets/img/products/micro-kjeldahl-digestion-unit.webp",
+      "imageFallback": "assets/img/products/micro-kjeldahl-digestion-unit.jpg",
+      "model3d": "micro-kjeldahl-unit",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "food-dairy",
+        "agriculture",
+        "chemical-textile",
+        "research"
+      ],
+      "chips": [
+        "6-Place Heating Bank",
+        "Glass Condensers",
+        "Individual Controls"
+      ],
+      "pdfUrl": "assets/docs/micro-kjeldahl-digestion-unit.pdf"
+    },
+    {
+      "id": "soxhlet-extraction-heater",
+      "name": "Soxhlet Extraction Heater",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Multi-Station Continuous Solvent Extraction Bench",
+      "featured": false,
+      "description": "Multi-place heating bench specifically designed for continuous solid-liquid extraction of fats, oils, lipids, and active botanical ingredients using the Soxhlet method. Features 3 or 6 heating mantle cups with individual heat control and vertical support rod assemblies.",
+      "specifications": {
+        "housing": "Heavy rectangular mild steel sheet duly finished in epoxy powder coating",
+        "positions": "3-flask or 6-flask benches to accommodate 250 ml, 500 ml, or 1000 ml flasks",
+        "heaters": "Knitted glass yarn heating mantle recesses with individual energy regulators and pilot lamps",
+        "mounting": "Supplied with vertical and horizontal stainless steel support rods and boss heads"
+      },
+      "applications": [
+        "Crude fat and lipid determination in food and agricultural products",
+        "Pesticide residue and organic contaminant extraction in environmental testing",
+        "Phytochemical extraction in pharmaceutical pharmacognosy"
+      ],
+      "image": "assets/img/products/soxhlet-extraction-heater.webp",
+      "imageFallback": "assets/img/products/soxhlet-extraction-heater.jpg",
+      "model3d": "soxhlet-heater",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "food-dairy",
+        "agriculture",
+        "chemical-textile",
+        "research"
+      ],
+      "chips": [
+        "Multi-Place Heater",
+        "Water Manifold",
+        "Individual Heat Control"
+      ],
+      "pdfUrl": "assets/docs/soxhlet-extraction-heater.pdf"
+    },
+    {
+      "id": "water-still",
+      "name": "Water Still (Manesty & Barnstead Types)",
+      "catalogueCode": "S.S.I. Make",
+      "category": "sterilisation",
+      "categoryName": "Sterilisation",
+      "tagline": "Pyrogen-Free Continuous Water Distillation Systems",
+      "featured": false,
+      "description": "Automatic continuous water distillation stills for producing pyrogen-free distilled water for clinical, analytical, and bacteriological use. Available in wall-mounting Manesty type with swing condenser and table-pattern Barnstead type, fabricated entirely from heavy gauge stainless steel (SS-304).",
+      "specifications": {
+        "construction": "Complete boiler, baffle, condenser tube, and top made from heavy gauge stainless steel",
+        "mounting": "Wall mounting bracket (Manesty) or sturdy benchtop pattern (Barnstead)",
+        "cleaning": "Open type condenser lid design for rapid de-scaling and cleaning",
+        "safety": "Optional electronic automatic cut-off system in case of cooling water failure"
+      },
+      "manestyCapacities": [
+        {
+          "cap": "2 L/hr",
+          "kw": "1.5 kW"
+        },
+        {
+          "cap": "4 L/hr",
+          "kw": "3.0 kW"
+        },
+        {
+          "cap": "6 L/hr",
+          "kw": "4.5 kW"
+        },
+        {
+          "cap": "8 L/hr",
+          "kw": "6.0 kW"
+        },
+        {
+          "cap": "10 L/hr",
+          "kw": "8.0 kW"
+        },
+        {
+          "cap": "12 L/hr",
+          "kw": "9.5 kW"
+        },
+        {
+          "cap": "16 L/hr",
+          "kw": "12.5 kW"
+        },
+        {
+          "cap": "20 L/hr",
+          "kw": "14.5 kW"
+        }
+      ],
+      "applications": [
+        "Preparation of laboratory reagents, buffers, and culture media",
+        "General analytical chemistry and spectrophotometric determinations",
+        "Pharmaceutical and clinical washing water"
+      ],
+      "image": "assets/img/products/water-still-manesty.webp",
+      "imageFallback": "assets/img/products/water-still-manesty.jpg",
+      "model3d": "water-still",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Borosilicate / SS",
+        "Continuous Distillation",
+        "Condenser Cooling"
+      ],
+      "pdfUrl": "assets/docs/water-still.pdf",
+      "barnsteadCapacities": [
+        "4 L",
+        "6 L",
+        "8 L",
+        "10 L",
+        "15 L",
+        "20 L",
+        "25 L",
+        "40 L",
+        "50 L"
+      ]
+    },
+    {
+      "id": "orbital-shaking-incubator",
+      "name": "Orbital Shaking Incubator",
+      "catalogueCode": "S.S.I. Make",
+      "category": "mixing-shaking",
+      "categoryName": "Mixing & Shaking",
+      "tagline": "Table-Top Shaking Incubator with Transparent Acrylic Dome",
+      "featured": true,
+      "description": "Table-top bacteriological shaking incubator with heavy stainless steel (SS-304) chamber and clear transparent see-through plexiglass domed lid. Fitted with a variable speed orbital shaking platform driven by a continuous-duty DC motor and digital PID temperature controller with internal air circulation fan.",
+      "specifications": {
+        "chamber": "Thick SS-304 grade stainless steel with rounded interior edges",
+        "lid": "Transparent acrylic / plexiglass dome lid for 360° visual inspection of cultures",
+        "shakingPlatform": "Fitted with lotus clamps accommodating 16 flasks of 250/500 ml or 25 flasks of 100 ml or 36 flasks of 50 ml",
+        "rpmControl": "Microprocessor digital RPM / speed indicator and stepless speed control (50 to 300 RPM)",
+        "temperature": "Ambient to 70°C ±0.5°C with microprocessor PID controller and circulation fan"
+      },
+      "applications": [
+        "Bacterial aeration and culture suspension growth",
+        "Fermentation and cell cultivation studies",
+        "Protein expression and enzyme assays"
+      ],
+      "image": "assets/img/products/orbital-shaking-incubator.webp",
+      "imageFallback": "assets/img/products/orbital-shaking-incubator.jpg",
+      "model3d": "orbital-shaking-incubator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "research",
+        "agriculture"
+      ],
+      "chips": [
+        "Orbital Motion",
+        "Acrylic Dome Hood",
+        "Variable RPM"
+      ],
+      "pdfUrl": "assets/docs/orbital-shaking-incubator.pdf"
+    },
+    {
+      "id": "mini-rotary-flask-shaker",
+      "name": "Mini Rotary Flask Shaker",
+      "catalogueCode": "S.S.I. 059",
+      "category": "mixing-shaking",
+      "categoryName": "Mixing & Shaking",
+      "tagline": "Continuous Variable Speed Rotary Motion with Lotus Clamps",
+      "featured": false,
+      "description": "Heavy gauge PCRC powder-coated benchtop rotary shaker designed for continuous laboratory mixing. Powered by a heavy-duty continuous rating variable speed motor with a 450 mm x 450 mm shaking platform fitted with interchangeable stainless steel lotus spring clamps.",
+      "specifications": {
+        "platformSize": "450 mm x 450 mm",
+        "speedRanges": "50 to 250 rpm, 80 to 300 rpm, or 80 to 350 rpm",
+        "capacities": "Accommodates 9 flasks of 500 ml, 9 flasks of 250 ml, 25 flasks of 100 ml, 36 flasks of 50 ml, or 49 flasks of 25 ml",
+        "optional": "Digital RPM/speed meter, automatic 0-60 min timer, digital ON/OFF timer with buzzer"
+      },
+      "applications": [
+        "Chemical liquid mixing, dissolution, and solvent washing",
+        "Biological culture agitation at ambient room temperature",
+        "Assay extraction and blending in biochemistry"
+      ],
+      "image": "assets/img/products/mini-rotary-flask-shaker.webp",
+      "imageFallback": "assets/img/products/mini-rotary-flask-shaker.jpg",
+      "model3d": "rotary-flask-shaker",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pharma",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Flask Clamps Fitted",
+        "Variable Speed Motor",
+        "Heavy-Duty Base"
+      ],
+      "pdfUrl": "assets/docs/mini-rotary-flask-shaker.pdf"
+    },
+    {
+      "id": "bacteriological-incubator",
+      "name": "Bacteriological Incubator",
+      "catalogueCode": "S.S.I. 04 (A)",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Double Walled Precision Microbial Cultivation Chamber",
+      "featured": false,
+      "description": "Double walled bacteriological incubator with stainless steel / anodized aluminium inner chamber and powder coated exterior. Insulated with thick glass wool to ensure stable thermal equilibrium for bacterial incubation from ambient +5°C to 70°C. Features a transparent glass inner door.",
+      "construction": {
+        "interior": "Polished Stainless Steel (SS-304) or Anodized Aluminium with wire shelves",
+        "exterior": "Powder coated mild steel sheet",
+        "doors": "Double door system: inner tempered glass door and outer insulated metal door with latch"
+      },
+      "temperature": {
+        "range": "Ambient +5°C to 70°C",
+        "accuracy": "±0.5°C",
+        "controller": "Hydraulic thermostat or Microprocessor PID controller with dual display"
+      },
+      "sizes": [
+        {
+          "h": 30,
+          "w": 30,
+          "d": 30,
+          "shelves": 1
+        },
+        {
+          "h": 35,
+          "w": 35,
+          "d": 35,
+          "shelves": 1
+        },
+        {
+          "h": 40,
+          "w": 45,
+          "d": 45,
+          "shelves": 2
+        },
+        {
+          "h": 60,
+          "w": 45,
+          "d": 45,
+          "shelves": 2
+        },
+        {
+          "h": 60,
+          "w": 60,
+          "d": 60,
+          "shelves": 3
+        },
+        {
+          "h": 90,
+          "w": 90,
+          "d": 90,
+          "shelves": 3
+        }
+      ],
+      "applications": [
+        "General bacterial and microbiological culture",
+        "Colony incubation on agar Petri plates",
+        "Biological sample incubation in clinical laboratories"
+      ],
+      "image": "assets/img/products/bacteriological-incubator.webp",
+      "imageFallback": "assets/img/products/bacteriological-incubator.jpg",
+      "model3d": "bacteriological-incubator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pathology",
+        "pharma",
+        "food-dairy",
+        "research"
+      ],
+      "chips": [
+        "Ambient +5°C to 70°C",
+        "Double Walled Body",
+        "Inner Glass Door"
+      ],
+      "pdfUrl": "assets/docs/bacteriological-incubator.pdf"
+    },
+    {
+      "id": "vacuum-oven",
+      "name": "Vacuum Oven",
+      "catalogueCode": "S.S.I. 075",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Heavy Cylindrical Stainless Steel Chamber for Low-Pressure Drying",
+      "featured": false,
+      "description": "Double walled vacuum drying oven featuring a heavy-gauge cylindrical stainless steel inner chamber and an outer mild steel shell. The door is made of heavy cast aluminum with a center circular glass viewing window. Features a sensitive vacuum gauge and fine needle vacuum release valve.",
+      "specifications": {
+        "chamber": "Cylindrical stainless steel chamber engineered to withstand full laboratory vacuum",
+        "door": "Cast aluminum heavy door with thick silicone gasket and circular glass viewport",
+        "tempRange": "50°C to 150°C (thermostatic or digital microprocessor control)",
+        "fittings": "Analog vacuum gauge (0 to 30 inHg / 760 mmHg), vacuum valve, and release valve"
+      },
+      "sizes": [
+        {
+          "dia": 22.5,
+          "depth": 30
+        },
+        {
+          "dia": 30,
+          "depth": 38
+        },
+        {
+          "dia": 38,
+          "depth": 45
+        },
+        {
+          "dia": 20,
+          "depth": 25
+        },
+        {
+          "dia": 25,
+          "depth": 25
+        },
+        {
+          "dia": 25,
+          "depth": 30
+        },
+        {
+          "dia": 30,
+          "depth": 30
+        },
+        {
+          "dia": 28,
+          "depth": 38
+        }
+      ],
+      "applications": [
+        "Desiccation of heat-sensitive pharmaceuticals and vitamins",
+        "Degassing of epoxy resins, polymers, and adhesives",
+        "Moisture content determination under vacuum"
+      ],
+      "image": "assets/img/products/vacuum-oven.webp",
+      "imageFallback": "assets/img/products/vacuum-oven.jpg",
+      "model3d": "vacuum-oven",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "chemical-textile",
+        "research"
+      ],
+      "chips": [
+        "Vacuum Dial Gauge",
+        "Silicone Gasket",
+        "Round Viewing Port"
+      ],
+      "pdfUrl": "assets/docs/vacuum-oven.pdf"
+    },
+    {
+      "id": "egg-poultry-incubator",
+      "name": "Egg / Poultry Incubator",
+      "catalogueCode": "S.S.I. / 018",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Automated 24-Hour Tilting Mechanism & Humidity Control",
+      "featured": false,
+      "description": "Egg and poultry incubators are listed in manual and automatic tilting versions. The catalogue describes humidity-controlled and non-humidity-controlled configurations; confirm the selected model and options.",
+      "specifications": {
+        "temperature": "Ambient to 80°C; catalogue specifies ±0.5°C with digital microprocessor control.",
+        "humidity": "Optional humidity-controlled version: 55% to 95% RH. A separate version is listed without humidity control.",
+        "tilting": "Manual tilting model or geared motor with automatic 24-hour timer, depending on model.",
+        "capacities": "50, 100, 200 or 250 eggs",
+        "construction": "Double-walled mild-steel exterior, stainless-steel interior, mineral-wool insulation and double-glass viewing window."
+      },
+      "applications": [
+        "Poultry hatching and avian embryo research",
+        "Veterinary vaccine production in fertile eggs",
+        "Avian virology and embryology studies"
+      ],
+      "image": "assets/img/products/egg-poultry-incubator.webp",
+      "imageFallback": "assets/img/products/egg-poultry-incubator.jpg",
+      "model3d": "egg-incubator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "agriculture",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Egg Tray Racks",
+        "Uniform Heating",
+        "Circulation Fan"
+      ],
+      "pdfUrl": "assets/docs/egg-poultry-incubator.pdf"
+    },
+    {
+      "id": "oven-and-incubator-combined",
+      "name": "Oven and Incubator Combined",
+      "catalogueCode": "S.S.I. Make",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Space-Saving Dual-Deck Unit: Upper Oven & Lower Incubator",
+      "featured": false,
+      "description": "Innovative two-chamber combo unit fitted one on top of the other to save valuable laboratory floor space. The bottom chamber operates as a precision bacteriological incubator, while the top chamber functions as a high-temperature hot air oven. Both chambers are operated through individual microcontrollers and separate control panels.",
+      "specifications": {
+        "chambers": "Dual independent SS-304 chambers with individual air circulation fans",
+        "controls": "Independent top-mounted digital controllers and rocker switch panels",
+        "power": "220/230 V AC supply with independent wiring"
+      },
+      "sizes": [
+        {
+          "size": "355 x 355 x 355 mm",
+          "capPerChamber": "45 Litres"
+        },
+        {
+          "size": "455 x 455 x 455 mm",
+          "capPerChamber": "95 Litres"
+        },
+        {
+          "size": "455 x 455 x 605 mm",
+          "capPerChamber": "125 Litres"
+        },
+        {
+          "size": "605 x 605 x 605 mm",
+          "capPerChamber": "224 Litres"
+        }
+      ],
+      "applications": [
+        "Compact academic and clinical laboratories requiring both drying and culture incubation",
+        "Routine QC testing in small industrial facilities"
+      ],
+      "image": "assets/img/products/oven-and-incubator-combined.webp",
+      "imageFallback": "assets/img/products/oven-and-incubator-combined.jpg",
+      "model3d": "combo-oven-incubator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pathology",
+        "pharma",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Dual Compartment",
+        "Independent Controls",
+        "Space-Saving Stack"
+      ],
+      "pdfUrl": "assets/docs/oven-and-incubator-combined.pdf"
+    },
+    {
+      "id": "serum-inspissator",
+      "name": "Serum Inspissator",
+      "catalogueCode": "S.S.I. 51",
+      "category": "water-baths",
+      "categoryName": "Water Baths",
+      "tagline": "Slanted Test Tube Media Coagulation for TB / Culture Media",
+      "featured": false,
+      "description": "Triple-walled specialized water bath designed specifically for the inspissation (coagulation and sloping) of egg- or serum-based tuberculosis culture media (such as Lowenstein-Jensen and Loeffler media). Features adjustable leveling screw assemblies to place tubes at the required sloping angle, full-view perspex cover, and digital temperature control.",
+      "specifications": {
+        "construction": "SS-304 interior with stainless steel jacket duly welded for leakproof construction; powder coated outer shell",
+        "cover": "Full view transparent perspex cover for condensation-free viewing",
+        "angleAdjustment": "Base fitted with adjustable screw assembly to set bath and test tube slope angle",
+        "temperature": "Thermostatically or microprocessor PID controlled to ±0.5°C"
+      },
+      "sizes": [
+        {
+          "l": 45,
+          "w": 17.5,
+          "d": 5,
+          "tubes": "25 tubes"
+        },
+        {
+          "l": 45,
+          "w": 35.0,
+          "d": 5,
+          "tubes": "50 tubes"
+        },
+        {
+          "l": 60,
+          "w": 35.0,
+          "d": 5,
+          "tubes": "100 tubes"
+        }
+      ],
+      "applications": [
+        "Preparation of Lowenstein-Jensen (LJ) medium slants for Mycobacterium tuberculosis",
+        "Loeffler serum slope medium coagulation",
+        "Pathology and bacteriology media kitchens"
+      ],
+      "image": "assets/img/products/serum-inspissator.webp",
+      "imageFallback": "assets/img/products/serum-inspissator.jpg",
+      "model3d": "serum-inspissator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pathology",
+        "pharma",
+        "research"
+      ],
+      "chips": [
+        "Slanted Tray Design",
+        "Water Immersion",
+        "Thermostatic Control"
+      ],
+      "pdfUrl": "assets/docs/serum-inspissator.pdf"
+    },
+    {
+      "id": "double-walled-water-bath",
+      "name": "Double Walled Water Bath (Thermostatic)",
+      "catalogueCode": "S.S.I. 081 / S.S.I. 03",
+      "category": "water-baths",
+      "categoryName": "Water Baths",
+      "tagline": "Thermostatic Boiling Water Bath with Concentric Ring Cover",
+      "featured": false,
+      "description": "Double-walled laboratory water bath. Inside made of stainless steel (SS-304), outside made of CRC sheet or stainless steel with powder coated finish. The top lid features stainless steel removable concentric rings to accommodate various sizes of evaporating basins and crucibles.",
+      "specifications": {
+        "interior": "Stainless steel tank with glass wool insulation",
+        "lid": "Stainless steel lid with removable concentric rings (3 inch diameter openings)",
+        "controller": "Sensitive capillary thermostat with neon mains and heating indicators",
+        "power": "230 V AC supply"
+      },
+      "sizes": [
+        {
+          "l": 35,
+          "w": 25,
+          "d": 10,
+          "holes": "6 holes (3 inch dia)"
+        },
+        {
+          "l": 40,
+          "w": 30,
+          "d": 10,
+          "holes": "12 holes (3 inch dia)"
+        }
+      ],
+      "applications": [
+        "Evaporation of solvents and extract concentration",
+        "Sample boiling and tissue warming",
+        "General chemistry lab heating"
+      ],
+      "image": "assets/img/products/double-walled-water-bath-rings.webp",
+      "imageFallback": "assets/img/products/double-walled-water-bath-rings.jpg",
+      "model3d": "water-bath-rings",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "research"
+      ],
+      "chips": [
+        "Concentric Rings Lid",
+        "Stainless Steel Interior",
+        "Thermostatic Control"
+      ],
+      "pdfUrl": "assets/docs/double-walled-water-bath.pdf"
+    },
+    {
+      "id": "universal-water-bath",
+      "name": "Universal Water Bath",
+      "catalogueCode": "S.S.I. 21 (A)",
+      "category": "water-baths",
+      "categoryName": "Water Baths",
+      "tagline": "Multi-Purpose Rectangular Bath for Racks & Evaporation",
+      "featured": false,
+      "description": "Universal laboratory bath with stainless steel interior and powder-coated outer body. Insulated with resin-bonded glass wool. Can be configured with a flat lid, pyramidal gabled lid, test tube Khan racks, or drop-on concentric hole plates.",
+      "sizes": [
+        {
+          "model": "A",
+          "l": 30,
+          "w": 22.5,
+          "d": 17.5
+        },
+        {
+          "model": "B",
+          "l": 45,
+          "w": 30.0,
+          "d": 17.5
+        }
+      ],
+      "applications": [
+        "Khan test tube rack incubation",
+        "Routine serology and enzymatic heating",
+        "General medical laboratory sample conditioning"
+      ],
+      "image": "assets/img/products/universal-water-bath.webp",
+      "imageFallback": "assets/img/products/universal-water-bath.jpg",
+      "model3d": "universal-water-bath",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "pathology",
+        "food-dairy",
+        "research"
+      ],
+      "chips": [
+        "Gable Roof Lid",
+        "Drain Cock Fitted",
+        "Stainless Steel Body"
+      ],
+      "pdfUrl": "assets/docs/universal-water-bath.pdf"
+    },
+    {
+      "id": "cod-digestion-apparatus",
+      "name": "COD Digestion Apparatus",
+      "catalogueCode": "S.S.I. 53 (C)",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Microprocessor Controlled 15-Sample Solid Aluminum Block with Air Condensers",
+      "featured": false,
+      "description": "Solid aluminum heating block unit designed for simultaneous digestion of 15 samples in 40 mm diameter reaction vessels for Chemical Oxygen Demand (COD) analysis. Eliminates the need for cooling water circulation by using 60 cm high air condensers. Digitally controlled at 150°C with ±1% accuracy.",
+      "specifications": {
+        "block": "Solid precision-drilled aluminum block accommodating 15 reaction vessels (40 mm dia)",
+        "condensers": "Supplied with 15 sets of glass reaction vessels and 60 cm tall air condensers (no water required)",
+        "tempControl": "Microprocessor PID digital temperature indicator cum controller at 150°C ±1%",
+        "timer": "Digital minute timer with audible buzzer to indicate digestion completion (typically 2 hrs)",
+        "power": "230 V, 1000 Watts"
+      },
+      "applications": [
+        "Chemical Oxygen Demand (COD) determination in sewage and industrial effluent",
+        "Water pollution monitoring and environmental compliance testing"
+      ],
+      "image": "assets/img/products/cod-digestion-apparatus.webp",
+      "imageFallback": "assets/img/products/cod-digestion-apparatus.jpg",
+      "model3d": "cod-apparatus",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "chemical-textile",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Block Heater",
+        "Aluminum Heating Block",
+        "Air Condensers"
+      ],
+      "pdfUrl": "assets/docs/cod-digestion-apparatus.pdf"
+    },
+    {
+      "id": "rota-dyer-machine",
+      "name": "Rota Dyer Machine",
+      "catalogueCode": "S.S.I. 27",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Laboratory Beaker Dyeing Machine for Fabrics, Yarn & Dyestuffs",
+      "featured": false,
+      "description": "Laboratory beaker dyeing machine for developing dye recipes with small fabric samples. The brochure describes an insulated water bath, immersion heaters, a rotating beaker carrier and 12- or 18-beaker configurations.",
+      "specifications": {
+        "beakers": "12 or 18 stainless-steel beakers; brochure specifies SS-316.",
+        "heater": "3 kW or 6 kW immersion heaters; temperature control up to 100°C.",
+        "rotation": "Approximately 20 rpm.",
+        "motor": "1/10 HP, single-phase motor.",
+        "electricalSupply": "Catalogue lists 3-phase, 440 V electrical supply for the unit; confirm site supply before ordering."
+      },
+      "applications": [
+        "Recipe matching and formulation in textile dyeing houses",
+        "Dyestuff shade evaluation and fastness testing",
+        "Yarn, yarn hank, and fabric test lot dyeing"
+      ],
+      "image": "assets/img/products/rota-dyer-machine.webp",
+      "imageFallback": "assets/img/products/rota-dyer-machine.jpg",
+      "model3d": "rota-dyer",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "chemical-textile",
+        "research"
+      ],
+      "chips": [
+        "Beaker Dyeing Carriage",
+        "Rotary Agitation",
+        "Bath Heating"
+      ],
+      "pdfUrl": "assets/docs/rota-dyer-machine.pdf"
+    },
+    {
+      "id": "seed-germinator",
+      "name": "Seed Germinator (Single Chamber)",
+      "catalogueCode": "SSI 061",
+      "category": "incubation-climate",
+      "categoryName": "Incubation & Climate",
+      "tagline": "Controlled Temperature & 90-95% RH for Agronomy Research",
+      "featured": false,
+      "description": "Designed for conducting seed germination experiments under controlled conditions of temperature and humidity. Features a double-walled chamber with stainless steel interior and powder-coated exterior, stainless water reservoir at the bottom generating 90% to 95% RH humidity, and perforated adjustable trays.",
+      "sizes": [
+        {
+          "model": "A",
+          "w": 50.5,
+          "h": 83.0,
+          "d": 41.5,
+          "cap": "6 cu. ft."
+        },
+        {
+          "model": "B",
+          "w": 57.0,
+          "h": 87.5,
+          "d": 55.0,
+          "cap": "10 cu. ft."
+        },
+        {
+          "model": "C",
+          "w": 65.0,
+          "h": 90.0,
+          "d": 55.0,
+          "cap": "12 cu. ft."
+        }
+      ],
+      "temperature": "5°C to 50°C, ±1°C; digital temperature indicator-controller.",
+      "humidity": "Humidity is not adjustable; the stainless-steel reservoir is stated to provide 90% to 95% RH (±3%).",
+      "applications": [
+        "Agricultural seed vigor and germination viability testing",
+        "Plant breeding, crop pathology, and botanical seedling studies"
+      ],
+      "image": "assets/img/products/seed-germinator.webp",
+      "imageFallback": "assets/img/products/seed-germinator.jpg",
+      "model3d": "seed-germinator",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "agriculture",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Chamber Enclosure",
+        "Water Reservoir Humidity",
+        "Adjustable Shelves"
+      ],
+      "pdfUrl": "assets/docs/seed-germinator.pdf"
+    },
+    {
+      "id": "industrial-tray-dryer",
+      "name": "Industrial Tray Dryer",
+      "catalogueCode": "SSI 070",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Heavy Cabinet Dryer for Vaccines, Tablets, Granules & Electronics",
+      "featured": false,
+      "description": "Heavy industrial cabinet tray dryer suitable for heat treatment, baking, and drying in pharmaceutical production (vaccines, tablets, bottle sterilizing), baking food products, electronic PCB processing, and armature winding soaking. Built with heavy angle iron frame, PCRC sheet exterior, and heavy-duty circulation blower.",
+      "specifications": {
+        "tempRange": "50°C to 150°C with minimum temperature gradient throughout",
+        "trays": "Available in 12, 18, 24, 36, 48, 60, and 96 tray capacities (16 x 32 inch Aluminum or SS trays)",
+        "blower": "Heavy-duty centrifugal circulation blower ensuring uniform hot air distribution"
+      },
+      "applications": [
+        "Pharmaceutical granule, pellet, and powder drying",
+        "Transformer coil and armature winding curing",
+        "Food and bakery dehydration"
+      ],
+      "image": "assets/img/products/industrial-tray-dryer.webp",
+      "imageFallback": "assets/img/products/industrial-tray-dryer.jpg",
+      "model3d": "industrial-tray-dryer",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pharma",
+        "food-dairy",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Heavy SS Trays",
+        "Forced Air Heating",
+        "Insulated Double Door"
+      ],
+      "pdfUrl": "assets/docs/industrial-tray-dryer.pdf"
+    },
+    {
+      "id": "uv-inspection-cabinet",
+      "name": "Ultra Violet Inspection Cabinet",
+      "catalogueCode": "SSI 072",
+      "category": "clean-air-safety",
+      "categoryName": "Clean-Air & Safety",
+      "tagline": "Dual Wavelength (254 nm & 365 nm) Darkroom TLC Inspection",
+      "featured": false,
+      "description": "Portable benchtop darkroom box for inspection of Thin Layer Chromatography (TLC) plates, fluorescent dyes, forensic samples, and mineral luminescence. Equipped with both short-wave (254 nm) and long-wave (365 nm) UV tubes with an eye protective viewing visor.",
+      "specifications": {
+        "housing": "Sheet metal cabinet powder coated dark black inside to eliminate reflections",
+        "tubes": "Available in 2-tube or 3-tube configurations (254 nm short wave and 365 nm long wave)",
+        "eyepiece": "Protective optical filter viewing visor ensuring user safety from UV radiation"
+      },
+      "applications": [
+        "TLC plate spot visualization in pharmaceutical analysis",
+        "Forensic document and counterfeit currency inspection",
+        "Mineralogy, petrology, and biochemical fluorometry"
+      ],
+      "image": "assets/img/products/uv-inspection-cabinet.webp",
+      "imageFallback": "assets/img/products/uv-inspection-cabinet.jpg",
+      "model3d": "uv-cabinet",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pharma",
+        "research",
+        "chemical-textile",
+        "pathology"
+      ],
+      "chips": [
+        "Dual UV Wavelengths",
+        "Viewing Eye Piece",
+        "Light-Tight Chamber"
+      ],
+      "pdfUrl": "assets/docs/uv-inspection-cabinet.pdf"
+    },
+    {
+      "id": "lyophiliser-freeze-drier",
+      "name": "Lyophiliser (Freeze Drier)",
+      "catalogueCode": "SSI 045",
+      "category": "cold-storage",
+      "categoryName": "Cold Storage",
+      "tagline": "Cell Structure Preservation with Vacuum Drum & Cold Trap",
+      "featured": false,
+      "description": "Used for preservation of blood plasma, plant extracts, bacteria, and vaccines without damaging cellular structure. Equipped with a stainless steel cooling condenser trap, clear acrylic vacuum drum with manifold ports, and high-vacuum rotary vane pump in a steel cabinet.",
+      "specifications": {
+        "capacities": "3 Liters or 5 Liters condensate ice capacity",
+        "cabinet": "Enclosed steel cabinet housing refrigeration compressor and vacuum pump"
+      },
+      "applications": [
+        "Preservation of bacterial and fungal culture stocks",
+        "Pharmaceutical peptide and enzyme lyophilization",
+        "Heat-labile botanical extract drying"
+      ],
+      "image": "assets/img/products/lyophiliser-freeze-drier.webp",
+      "imageFallback": "assets/img/products/lyophiliser-freeze-drier.jpg",
+      "model3d": "freeze-drier",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pharma",
+        "research",
+        "food-dairy"
+      ],
+      "chips": [
+        "Freeze Drying System",
+        "Multi-Port Manifold",
+        "Condenser Trap"
+      ],
+      "pdfUrl": "assets/docs/lyophiliser-freeze-drier.pdf"
+    },
+    {
+      "id": "magnetic-stirrer",
+      "name": "Magnetic Stirrer",
+      "catalogueCode": "SSI 046",
+      "category": "mixing-shaking",
+      "categoryName": "Mixing & Shaking",
+      "tagline": "Smooth Stepless Speed Regulation - With or Without Hot Plate",
+      "featured": false,
+      "description": "Benchtop laboratory magnetic stirrer supplied with stepless speed regulator. Available with or without top heating plate for simultaneous heating and stirring of chemical reagents and solutions.",
+      "models": [
+        "Without Hot Plate",
+        "With Hot Plate"
+      ],
+      "applications": [
+        "Reagent dissolution and titration stirring",
+        "General chemistry and biochemistry sample preparation"
+      ],
+      "image": "assets/img/products/magnetic-stirrer.webp",
+      "imageFallback": "assets/img/products/magnetic-stirrer.jpg",
+      "model3d": "magnetic-stirrer",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "research",
+        "chemical-textile",
+        "pharma",
+        "pathology"
+      ],
+      "chips": [
+        "Teflon Stir Bar",
+        "Speed Control Knob",
+        "Compact Benchtop"
+      ],
+      "pdfUrl": "assets/docs/magnetic-stirrer.pdf"
+    },
+    {
+      "id": "melting-point-apparatus",
+      "name": "Melting Point Apparatus",
+      "catalogueCode": "SSI 047",
+      "category": "sample-prep-extraction",
+      "categoryName": "Sample Prep & Extraction",
+      "tagline": "Accurate Melting Point Determination up to 350°C",
+      "featured": false,
+      "description": "For determination of melting points of chemical substances up to 350°C. The aluminum heating block accepts three capillary tubes and a mercury thermometer, illuminated from below by a lamp fixed in the housing to provide uniform, shadow-free viewing.",
+      "models": [
+        "Thermostatic Model",
+        "Digital Model"
+      ],
+      "applications": [
+        "Identification and purity checking of organic chemical syntheses",
+        "Pharmaceutical active ingredient verification"
+      ],
+      "image": "assets/img/products/melting-point-apparatus.webp",
+      "imageFallback": "assets/img/products/melting-point-apparatus.jpg",
+      "model3d": "melting-point-apparatus",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pharma",
+        "research",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Magnifying Eyepiece",
+        "Thermometer Mount",
+        "Illuminated Sample Stage"
+      ],
+      "pdfUrl": "assets/docs/melting-point-apparatus.pdf"
+    },
+    {
+      "id": "mortuary-chamber",
+      "name": "Mortuary Chamber",
+      "catalogueCode": "SSI 048",
+      "category": "cold-storage",
+      "categoryName": "Cold Storage",
+      "tagline": "Cadaver Storage Refrigerator (2°C to 50°C) with Movable Trays",
+      "featured": false,
+      "description": "Double-walled morgue refrigerator designed for hygienic cold preservation of cadavers. Features corrosion-free metal components, advanced polyurethane insulation, heavy door locking system, hermetic refrigeration compressor, and movable stainless steel body trays on telescopic ball-bearing rollers.",
+      "specifications": {
+        "tempRange": "2°C to 50°C digital micro-controlled",
+        "trays": "Heavy gauge stainless steel sliding body trays on smooth ball-bearing tracks",
+        "insulation": "High-density PUF insulation for maximum thermal efficiency"
+      },
+      "applications": [
+        "Hospital and forensic mortuaries",
+        "Medical college anatomy departments"
+      ],
+      "image": "assets/img/products/mortuary-chamber.webp",
+      "imageFallback": "assets/img/products/mortuary-chamber.jpg",
+      "model3d": "mortuary-chamber",
+      "hasExplodedView": true,
+      "hasDoorAnimation": true,
+      "industries": [
+        "pathology",
+        "research"
+      ],
+      "chips": [
+        "2-Body Stretcher Trays",
+        "Sub-Zero Cooling",
+        "Heavy Roller Carriage"
+      ],
+      "pdfUrl": "assets/docs/mortuary-chamber.pdf"
+    },
+    {
+      "id": "round-hot-plate",
+      "name": "Round Hot Plate",
+      "catalogueCode": "S.S.I. Make",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Circular Cast Iron Heating Plate on Heavy Tripod Base",
+      "featured": false,
+      "description": "Classic circular laboratory hot plate featuring a heavy machined cast iron surface mounted on a sturdy tripod base. Fitted with a 3-heat rotary selector switch for low, medium, and high temperature heating.",
+      "specifications": {
+        "plate": "20 cm (8 inch) diameter heavy cast iron plate",
+        "power": "1.2 kW / 1.5 kW, 230 V AC"
+      },
+      "applications": [
+        "General chemistry lab heating and boiling",
+        "Sample evaporation and preparation"
+      ],
+      "image": "assets/img/products/round-hot-plate.webp",
+      "imageFallback": "assets/img/products/round-hot-plate.jpg",
+      "model3d": "round-hot-plate",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "research",
+        "chemical-textile",
+        "pharma"
+      ],
+      "chips": [
+        "Machined Top Plate",
+        "Embedded Element",
+        "Compact Benchtop"
+      ],
+      "pdfUrl": "assets/docs/round-hot-plate.pdf"
+    },
+    {
+      "id": "electric-bunsen-burner",
+      "name": "Electric Bunsen Burner",
+      "catalogueCode": "S.S.I. Make",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Flameless Electric Radiative Heat for Inoculation Loops & Test Tubes",
+      "featured": false,
+      "description": "Flameless electric alternative to traditional gas Bunsen burners. Ideal for use inside laminar air flow clean benches where open gas flames create air turbulence and fire hazards. Utilizes a ceramic heating chimney to provide intense radiative heat.",
+      "specifications": {
+        "power": "350 Watts, 230 V AC",
+        "chimney": "Ceramic heating crucible reaching up to 800°C for rapid loop glowing"
+      },
+      "applications": [
+        "Inoculation loop and needle sterilisation inside laminar hoods",
+        "Microbiological test tube mouth flaming without gas cylinder hazards"
+      ],
+      "image": "assets/img/products/electric-bunsen-burner.webp",
+      "imageFallback": "assets/img/products/electric-bunsen-burner.jpg",
+      "model3d": "electric-bunsen-burner",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "research",
+        "pathology",
+        "chemical-textile"
+      ],
+      "chips": [
+        "Flameless Heating",
+        "Ceramic Core",
+        "Energy Regulator"
+      ],
+      "pdfUrl": "assets/docs/electric-bunsen-burner.pdf"
+    },
+    {
+      "id": "slide-warming-table",
+      "name": "Slide Warming Table",
+      "catalogueCode": "S.S.I. Make",
+      "category": "heating-drying",
+      "categoryName": "Heating & Drying",
+      "tagline": "Uniform Flat Heated Surface for Histology & Cytology Slides",
+      "featured": false,
+      "description": "Low-profile laboratory slide warming table for flattening paraffin-embedded tissue ribbon sections and drying microscope slides in histology, pathology, and cytology laboratories. Features an anodized black top plate with uniform heating up to 70°C.",
+      "specifications": {
+        "surface": "Anodized black aluminum surface for high contrast against transparent slides",
+        "tempRange": "Ambient to 70°C controlled by hydraulic thermostat or digital controller",
+        "capacity": "Holds 40 to 60 standard 75 x 25 mm microscope slides"
+      },
+      "applications": [
+        "Paraffin tissue section stretching and drying in microtomy",
+        "Cytology smear and blood smear fixation"
+      ],
+      "image": "assets/img/products/slide-warming-table.webp",
+      "imageFallback": "assets/img/products/slide-warming-table.jpg",
+      "model3d": "slide-warming-table",
+      "hasExplodedView": true,
+      "hasDoorAnimation": false,
+      "industries": [
+        "pathology",
+        "research",
+        "pharma"
+      ],
+      "chips": [
+        "Uniform Surface Heat",
+        "Thermostatic Control",
+        "Pathology Staining"
+      ],
+      "pdfUrl": "assets/docs/slide-warming-table.pdf"
+    }
+  ]
+}
